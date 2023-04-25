@@ -112,7 +112,6 @@ h2 {
 #club-ethos{
   height: 600px;
 }
-
 #left-about{
   padding-top: 30px;
   width: 33%;
@@ -127,4 +126,26 @@ h2 {
   padding-top: 30px;
   width: 33%;
   margin: 0 auto;
+}
+.left-about-heading{
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+hr{
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+.right-about-heading{
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.right-about-heading h2, p{
+  text-align: right;
 }
