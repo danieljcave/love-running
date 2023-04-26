@@ -25,12 +25,11 @@
       <nav>
         <ul id="menu">
           <li>
-            <a class="active" href="signup.html">Sign Up</a>
+            <a class="active" href="signup.html">Sign Up <i class="fa fa-heartbeat" aria-hidden="true"></i></a>
           </li>
           <li>
             <a href="gallery.html">Gallery</a>
           </li>
-
           <li>
             <a href="index.html">Home</a>
           </li>
@@ -38,18 +37,17 @@
       </nav>
     </header>
 
-
     <section class="form-section">
-      <form method="post" action="https://formdump.codeinstitute.net/">
+      <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
         <h2>Let's get you signed up!</h2>
         <label for="fname" id="fname">First Name</label>
-        <input type="text" name="first_name" id="fname" required>
+        <input class="text-input" type="text" name="first_name" id="fname" required>
 
         <label for="lname" id="lname">Last Name</label>
-        <input type="text" name="last_name" id="lname" required>
+        <input class="text-input" type="text" name="last_name" id="lname" required>
         
         <label for="email" id="email">Email Address</label>
-        <input type="email" name="email_address" id="email" required>
+        <input class="text-input" type="email" name="email_address" id="email" required>
         
         <label for="road" id="road">Road</label>
         <input type="radio" name="running_preference" value="road" id="road" required>
@@ -60,7 +58,7 @@
         <label for="both" id="both">Both</label>
         <input type="radio" name="running_preference" value="both" id="both" required>
         
-        <input type="submit" value="Let's Run!">
+        <input class="join-button" type="submit" value="Let's Run!">
     </form>
     </section>
 
